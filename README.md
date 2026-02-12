@@ -2,6 +2,8 @@
 
 A single-file food delivery demo showcasing [WebMCP](https://github.com/webmachinelearning/webmcp), the proposed web standard that exposes structured tools for AI browser agents.
 
+**Repo:** [https://github.com/Doriandarko/webmcp-starter](https://github.com/Doriandarko/webmcp-starter)
+
 ## What it demonstrates
 
 **9 WebMCP tools** covering a full DoorDash-style ordering flow:
@@ -23,7 +25,7 @@ A single-file food delivery demo showcasing [WebMCP](https://github.com/webmachi
 1. Install [C146+](https://www.google.com/chrome/canary/) (Canary)
 2. Enable `chrome://flags/#enable-webmcp-testing`
 3. Install the [Model Context Tool Inspector](https://chromewebstore.google.com/detail/model-context-tool-inspec/gbpdfapgefenggkahomfgkhfehlcenpd) extension
-4. Open `index.html` (locally or via GitHub Pages)
+4. Open `food-app.html` locally in Chrome Canary
 5. Click the extension → see all 9 tools → test with Gemini
 
 ## Test prompt
@@ -31,10 +33,6 @@ A single-file food delivery demo showcasing [WebMCP](https://github.com/webmachi
 Paste this into the extension's agent prompt:
 
 > I'm craving Italian food. Find me an Italian restaurant, add a margherita pizza, a carbonara, and a tiramisu. Apply WELCOME20. Checkout to 742 Evergreen Terrace, Apt 3B with a $5 tip on Visa.
-
-## Live demo
-
-🔗 https://YOUR_USERNAME.github.io/webmcp-starter/
 
 ## Resources
 
